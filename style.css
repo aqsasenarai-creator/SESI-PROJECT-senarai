@@ -1,3 +1,8 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
 body {
   background-color: #999999;
   font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah di baca */
@@ -20,3 +25,7 @@ color:
 .kartu-profil {
   text-align: center;
 }
+
+background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
